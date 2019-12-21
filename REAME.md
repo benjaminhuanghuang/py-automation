@@ -3,5 +3,6 @@
 
 ## install selenium
 ```
-  pip install 
+  pip install selenium
+  brew cask install chromedriver
 ```

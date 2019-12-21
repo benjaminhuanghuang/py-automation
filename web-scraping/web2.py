@@ -15,3 +15,6 @@ for i in items:
 pages = soup.find('ul', class_='pagination')
 urls=[]
 links = pages.find_all('a', class_='page-link')
+for link in links:
+  pageNum = int(link.text) if link.text.isdigit() else None
+  
